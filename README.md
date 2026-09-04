@@ -1,7 +1,7 @@
 # RedMess - Zero-Refusal AI Integration System
 
 <p align="center">
-  <img src="banner.png" alt="RedMess Banner" width="800"/>
+  <img src="assets/banner.png" alt="RedMess Banner" width="800"/>
 </p>
 
 <p align="center">
