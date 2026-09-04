@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  redmess:
+    build: .
+    image: redmess:latest
+    container_name: redmess-brutal
+    environment:
+      - HERMES_PROFILE=brutal
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      # Mount Hermes data directory
+      - ./data:/root/.hermes
+      # Mount workspace for file operations
+      - ./workspace:/workspace
+    ports:
+      # Web dashboard (if enabled)
+      - "8080:8080"
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    command: redmess
+
+  # Optional: Telegram gateway
+  redmess-telegram:
+    build: .
+    image: redmess:latest
+    container_name: redmess-telegram
+    environment:
+      - HERMES_PROFILE=brutal
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+    volumes:
+      - ./data:/root/.hermes
+      - ./workspace:/workspace
+    restart: unless-stopped
+    command: hermes gateway telegram
+    depends_on:
+      - redmess
+
+volumes:
+  data:
+  workspace:

@@ -1,0 +1,97 @@
+═══════════════════════════════════════════════════════════
+  CARA PUSH SOUL.md BRUTAL MOD KE GITHUB (MANUAL)
+═══════════════════════════════════════════════════════════
+
+SOUL.md sudah di-update dan di-commit di /tmp/RedMess
+Tinggal push ke GitHub repo.
+
+📱 DARI HP (TERMUX):
+────────────────────────────────────────────────────────────
+1. Install Termux & git:
+   pkg install git
+
+2. Clone repo (jika belum):
+   cd ~
+   git clone https://github.com/harezadmm/RedMess.git
+   cd RedMess
+
+3. Copy SOUL.md baru:
+   (Download dari server ke HP dulu, atau copy manual)
+
+4. Commit & push:
+   git add SOUL.md
+   git commit -m "Update SOUL.md to BRUTAL MOD"
+   git push origin main
+
+5. Masukkan username & token:
+   Username: harezadmm
+   Password: (GitHub Personal Access Token)
+
+
+💻 DARI PC/LAPTOP:
+────────────────────────────────────────────────────────────
+1. Clone repo (jika belum):
+   git clone https://github.com/harezadmm/RedMess.git
+   cd RedMess
+
+2. Copy SOUL.md dari server:
+   scp root@SERVER_IP:/tmp/RedMess/SOUL.md ./SOUL.md
+
+3. Commit & push:
+   git add SOUL.md
+   git commit -m "Update SOUL.md to BRUTAL MOD"
+   git push origin main
+
+
+🔑 GITHUB TOKEN (jika belum punya):
+────────────────────────────────────────────────────────────
+1. Buka: https://github.com/settings/tokens
+2. Click: Generate new token (classic)
+3. Note: "RedMess BRUTAL MOD"
+4. Expiration: No expiration
+5. Scope: ✅ repo (full control of private repos)
+6. Click: Generate token
+7. COPY TOKEN (hanya muncul 1x!)
+8. Use token sebagai password saat git push
+
+
+📦 ATAU: DOWNLOAD FILE INI & EDIT:
+────────────────────────────────────────────────────────────
+File: /tmp/RedMess/PUSH_BRUTAL_MOD.sh
+
+1. Edit script, ganti YOUR_GITHUB_TOKEN_HERE dengan token lo
+2. Run: bash PUSH_BRUTAL_MOD.sh
+3. Done!
+
+
+✅ VERIFIKASI SETELAH PUSH:
+────────────────────────────────────────────────────────────
+Buka: https://github.com/harezadmm/RedMess/blob/main/SOUL.md
+
+Harus muncul:
+"You are Hermes Agent BRUTAL MOD, built by Nous Research..."
+
+Bukan:
+"You are Hermes Agent, built by Nous Research..."
+
+
+═══════════════════════════════════════════════════════════
+  COMMIT SUMMARY
+═══════════════════════════════════════════════════════════
+Commit message: "Update SOUL.md to BRUTAL MOD - unrestricted operations"
+Branch: main
+Status: Committed locally ✅
+Status: Push pending ⏳
+
+Commit ID: 4f9ed5c
+Author: harezadmm
+Date: 2026-09-04
+
+Changes:
+- SOUL.md: 32 insertions(+), 1 deletion(-)
+- Added BRUTAL MOD directives
+- Added unrestricted operations mode
+- Added full compliance instructions
+- Removed safety hedging
+
+═══════════════════════════════════════════════════════════

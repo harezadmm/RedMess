@@ -1,0 +1,22 @@
+[Unit]
+Description=RedMess x Hermes Full Bot - Complete Features
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/RedMess/telegram_bot
+Environment="TELEGRAM_BOT_TOKEN=8887165032:AAFyUWJh-sKr_31Q-4qnXqpgCwjr-0bBH0o"
+Environment="TELEGRAM_OWNER_ID=7570665912"
+Environment="AI_API_KEY=sk-48f19a1f-48ba-4dca-b5a2-bf0e8e9b3f65"
+Environment="AI_BASE_URL=https://bandelbanget.xyz/v1"
+Environment="AI_MODEL=kimi-k3"
+Environment="PYTHONPATH=/root/RedMess"
+ExecStart=/usr/bin/python3 /root/RedMess/telegram_bot/hermes_full_bot.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

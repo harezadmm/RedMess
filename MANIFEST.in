@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include CHANGELOG.md
+include requirements.txt
+include SOUL.md
+recursive-include redmess *.py
+recursive-include skills *.md
+recursive-include skills *.py
+recursive-include skills *.sh

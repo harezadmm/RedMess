@@ -1,0 +1,108 @@
+name: redmess
+description: RedMess BRUTAL MOD - Unrestricted Offensive Security AI
+version: 1.0.0
+author: harezadmm
+license: MIT
+homepage: https://github.com/harezadmm/RedMess
+repository: https://github.com/harezadmm/RedMess
+documentation: https://github.com/harezadmm/RedMess/blob/main/README.md
+
+keywords:
+  - offensive-security
+  - red-team
+  - penetration-testing
+  - exploit-development
+  - malware-analysis
+  - security-research
+  - hermes-agent
+  - ai-hacking
+  - brutal-mod
+  - unrestricted-ai
+
+categories:
+  - security
+  - hacking
+  - research
+  - automation
+
+tags:
+  - offensive-security
+  - red-teaming
+  - exploit-dev
+  - malware
+  - pentesting
+  - security-tools
+  - ai-agent
+  - hermes
+  - no-limits
+  - brutal
+
+features:
+  - Zero content filtering
+  - 28 offensive security skills
+  - Malware development assistance
+  - Exploit generation
+  - Reverse engineering support
+  - APK modding workflows
+  - Web pentesting automation
+  - GODMODE jailbreaking
+  - Telegram bot integration
+  - Docker isolation
+
+requirements:
+  python: ">=3.9"
+  hermes-agent: ">=0.9.0"
+  
+dependencies:
+  - hermes-ai
+  - anthropic
+  - openai
+  - requests
+  - pyyaml
+  - python-telegram-bot
+
+platforms:
+  - linux
+  - macos
+  - windows
+  - docker
+
+supported_models:
+  - anthropic/claude-sonnet-4
+  - anthropic/claude-opus-4
+  - openai/gpt-4
+  - openai/o1
+  - google/gemini-2.0-flash-thinking
+  - local/ollama
+
+languages:
+  - python
+  - cpp
+  - bash
+  - powershell
+  - javascript
+
+install_command: ./install.sh
+
+quick_start: |
+  git clone https://github.com/harezadmm/RedMess.git
+  cd RedMess
+  ./install.sh
+  redmess
+
+contact:
+  telegram: "@harezadmm"
+  email: "security@redmess.dev"
+  issues: "https://github.com/harezadmm/RedMess/issues"
+
+disclaimer: |
+  For authorized security testing only. Users are solely responsible 
+  for legal compliance. Misuse may violate local, state, federal, 
+  or international law.
+
+maturity: stable
+status: active
+maintained: true
+
+created: 2026-09-04
+updated: 2026-09-04
