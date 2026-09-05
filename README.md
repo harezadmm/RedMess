@@ -22,7 +22,7 @@
 ✅ **Modular Design** - Use only what you need  
 ✅ **Production Ready** - Battle-tested prompts and guardrail bypasses  
 ✅ **Rental System Compatible** - Built-in multi-user support  
-✅ **25+ Security Skills** - APK modding, Frida hooking, RAT development, and more
+✅ **125+ Security Skills** - APK modding, Frida hooking, RAT development, and more
 
 ---
 
