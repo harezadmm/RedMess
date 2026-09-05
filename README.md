@@ -38,7 +38,7 @@
 | **WRITING_TIPS.md** | High-quality content generation guidelines | 10 KB |
 | **INTEGRATION.md** | Platform-specific integration guide | 15 KB |
 
-### 🛡️ Security Skills (25 Total)
+### 🛡️ Security Skills (126 Total)
 
 #### Mobile Security & APK Modding
 - **android-16-apk-modding** - Mod APKs for Android 16/ColorOS with APKTool 3.0.3+
